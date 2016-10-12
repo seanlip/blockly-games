@@ -46,9 +46,10 @@
         'workspace on the right. The toolbox is where the blocks are kept. ' +
         'Add a block from the toolbox to the workspace. Then, go to the ' +
         'workspace and explore up and down in the block. The block will ' +
-        'have different options for what you can do with it, like adding a ' +
-        'link to attach another block. When you\'re ready to try out your ' +
-        'program, choose the button called, "Run your program."'),
+        'have different options for what you can do with it, like copying it ' +
+        'to the clipboard and pasting it to another block. ' +
+        'When you\'re ready to try out your program, choose the button ' +
+        'called, "Run your program."'),
     beatsPerMinute: 80,
     expectedLine: [
       [[48], 1]
@@ -101,8 +102,9 @@
     hint: (
         'Make sure the blocks are connected to each other. You can connect ' +
         'blocks by going to the Block Options menu using the arrow keys, ' +
-        'and finding the button to mark a spot in the workspace. Then, ' +
-        'go to the block you want to copy, and copy it to the marked spot.'),
+        'and click "cut block" to transfer the block to the clipboard. Then, ' +
+        'go to the place you want to paste it to, and select one of the ' +
+        'Paste buttons.'),
     instructions: 'Play C4, then E4, then G4.'
   }, {
     toolboxBlockDefns: [{
@@ -146,7 +148,7 @@
     },
     introMessage: 'New block unlocked: Repeat block!',
     hint: (
-      'To use only two blocks, link a play note block inside a repeat ' +
+      'To use only two blocks, copy a play note block into a repeat ' +
       'block. In the repeat block, find the "repeat BLANK times" part, ' +
       'press Enter, and type the number of times you want it to repeat. ' +
       'Then, press the Escape key.'),
