@@ -37,6 +37,12 @@ houseApp.LevelManagerService = ng.core
 
       this.notificationsService = _notificationsService;
       this.applauseAudioFile = new Audio('media/applause.mp3');
+
+      alert(
+          'Screenreader tips: To hear the instructions, press H until you hear ' +
+          '"Instructions, heading level 3", then press the down arrow key to ' +
+          'read the text by line. You can return later to the instructions by pressing ' +
+          'Shift+H until you reach the Instructions heading.');
     }],
     playApplause_: function() {
       this.applauseAudioFile.play();
