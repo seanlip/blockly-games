@@ -101,8 +101,9 @@
     hint: (
         'Make sure the blocks are connected to each other. You can connect ' +
         'blocks by going to the Block Options menu using the arrow keys, ' +
-        'and finding the button to mark a spot in the workspace. Then, ' +
-        'go to the block you want to copy, and copy it to the marked spot.'),
+        'and finding the button to add a link to that block in the ' +
+        'workspace. Then, go to the block you want to move, and attach it to ' +
+        'the link.'),
     instructions: 'Play C4, then E4, then G4.'
   }, {
     toolboxBlockDefns: [{
